@@ -24,7 +24,7 @@ def artifactId() {
   matcher ? matcher[0][1] : null
 }
 
-node('java8') {
+node('master') {
 
   /*
     USER INPUT variables
